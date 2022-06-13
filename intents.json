@@ -1,0 +1,186 @@
+{
+	"intents": [{
+			"tag": "1",
+			"patterns": ["hello", "hi", "hey", "yup", "heyo"],
+			"responses": ["Hi there! My name is Sally!,Would you like to ask a question?$Yes Please,No Thanks"]
+		},
+		{
+			"tag": "2",
+			"patterns": ["please"],
+			"responses": ["Which product do you have a question about?$ VermiGold Tonic, Compost Worms, Fishing Worms, VermiGold Pellets"]
+		},
+		{
+			"tag": "3",
+			"patterns": ["VermiGold Tonic", "vermigold", "tonic", "vermigold tonic"],
+			"responses": ["What sort of question do you have$ Shipping, Location, Pricing, Technical data, General questions"]
+		},
+		{
+			"tag": "4",
+			"patterns": ["Shipping", "shipping"],
+			"responses": ["We ship orders all over Australia, unfortunately we do not ship internationally. Our prices include freight cost, we ship once a week.$Yes,No "]
+		},
+		{
+			"tag": "5",
+			"patterns": ["Yes", "yes", "question"],
+			"responses": ["Would you like to view more of our frequently asked questions, or would you like me to direct you to our products$ Frequently Asked Questions,https://www.vermigold.com.au/products"]
+		},
+		{
+			"tag": "6",
+			"patterns": ["frequently", "asked"],
+			"responses": ["Which product do you have a question about?$ VermiGold Tonic,Compost Worms,Fishing Worms,VermiGold Pellets"]
+		},
+		{
+			"tag": "7",
+			"patterns": ["Thanks", "thanks"],
+			"responses": ["No worries,Please contact our team if you have any enquiries later on, about our products."]
+		},
+		{
+			"tag": "8",
+			"patterns": ["No", "no"],
+			"responses": ["Would you like to view our other frequently asked questions or would you like me to put you in contact with one of our team members to address your question?$Frequently Asked Question,Contact team member,Book Your Appointment"]
+		},
+		{
+			"tag": "9",
+			"patterns": ["Location", "location"],
+			"responses": ["Our farm is located at, 1507 Bullcreek road, Ashbourne SA. But please ring the office first as your order might not be ready yet.$Yes,No"]
+		},
+		{
+			"tag": "10",
+			"patterns": ["Pricing", "pricing"],
+			"responses": ["Our pricing per product is shown on our website$ https://www.vermigold.com.au/products However, for large orders we can offer a discount please make contact with the VermiGold team.?$Yes,No"]
+		},
+		{
+			"tag": "11",
+			"patterns": ["Technical", "technical"],
+			"responses": ["The following are technical data, frequently asked questions.?$What is the bacteria and fungi count\n in the tonic?,What application rate should I use on\n my farm?,Don’t see your question?"]
+		},
+		{
+			"tag": "12",
+			"patterns": ["bacteria", "fungi", "count"],
+			"responses": ["Our website under the section shows the laboratory results of the liquid$ https://www.vermigold.com.au/information Did this answer your question?$Yes,No "]
+		},
+		{
+			"tag": "13",
+			"patterns": ["alive", "Alive"],
+			"responses": ["Yes if you store your worms in a 10-litre container or larger with peat moss and loose organic material you can keep them alive and breeding for months. Please keep their bedding moist.Did this answer your question? $Yes,No"]
+		},
+		{
+			"tag": "14",
+			"patterns": ["application", "rate", "should", "farm"],
+			"responses": ["Please refer to the section on our website for application rates or make contact with VermiGold by email or phone$ https://www.vermigold.com.au/information Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "15",
+			"patterns": ["Don’t", "see", "your", "question?"],
+			"responses": ["No worries, let me put you in contact with one of our team members to address your question.$Contact team member"]
+		},
+		{
+			"tag": "16",
+			"patterns": ["general", "questions"],
+			"responses": ["The following are generalised, frequently asked questions$Why is your product different from\n your competitors?,Is your product organically certified?,What is the shelf life of the product?,How do I store the product?,The VermiGold tonic has no smell is\n that normal?,Don’t see your question?"]
+		},
+		{
+			"tag": "17",
+			"patterns": ["competitors", "different", "product"],
+			"responses": ["We extract our liquid straight from the worm beds and in containers for sale. We do not ferment the product nor add other matter. Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "18",
+			"patterns": ["organically", "certified"],
+			"responses": ["Yes, our VermiGold tonic is organically certified by NASAA, our certification number is NCO 5562 M. Please refer to our website for further details"]
+		},
+		{
+			"tag": "19",
+			"patterns": ["shelf", "life"],
+			"responses": ["VermiGold tonic has an indefinite shelf life but for commercial purposes, we have set a limit of 2 years."]
+		},
+		{
+			"tag": "20",
+			"patterns": ["store", "do", "I"],
+			"responses": ["Store VermiGold out of the sun preferable in temperatures below 30 degrees."]
+		},
+		{
+			"tag": "21",
+			"patterns": ["smell", "normal", "is", "that"],
+			"responses": ["If there is a smell coming from the liquid, it often means that the bacteria have died. Therefore, the liquid should have no or a little odour only. Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "22",
+			"patterns": ["compost ", "worms"],
+			"responses": ["What sort of question do you have?$Can I buy more or less than 1 kilo\n of compost worms?,Don’t see your question?"]
+		},
+		{
+			"tag": "23",
+			"patterns": ["1", "kilo"],
+			"responses": ["We restrict a maximum of 1 Kilo of worms so that we can make limited supplies to as many buyers as possible. We dont sell less than 1 Kilo (approx 4000 worms) as handling and shipment cost will not make this economical."]
+		},
+		{
+			"tag": "24",
+			"patterns": ["fishing", "worms"],
+			"responses": ["What sort of question do you have?$can i keep fishing worm\n alive for my next trip?,Can worms be used in Fresh and\n Saltwater?,Any Specific limit on buying of\n Fish Worms?,Don’t see your question?"]
+		},
+		{
+			"tag": "25",
+			"patterns": ["fresh", "saltwater", "used"],
+			"responses": ["Yes, but will perform slightly better in fresh water. Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "26",
+			"patterns": ["Specific", "buying"],
+			"responses": ["There is no limit but is subject to availability. Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "27",
+			"patterns": ["saltwater", "fresh"],
+			"responses": ["Yes, but will perform slightly better in fresh water. Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "28",
+			"patterns": ["specific"],
+			"responses": ["There is no limit but is subject to availability.Did this answer your question?$Yes,No"]
+		},
+		{
+			"tag": "29",
+			"patterns": ["Pellets", "pellets"],
+			"responses": ["What sort of question do you have?$When are pellets available?,Don’t see your question?"]
+		},
+		{
+			"tag": "30",
+			"patterns": ["when", "available"],
+			"responses": ["We use our castings to set up new worm beds as our tonic is in high demand. The excess castings we pellet twice a year, please contact us for when this is available again. Did this answer your question?$Yes,No"]
+		},
+		
+		{
+			"tag": "31",
+			"patterns": ["cardiologist","Cardiologist"],
+			"responses": ["Book your Appointment Date for Cardiologist "]
+		},
+		{
+			"tag": "32",
+			"patterns": ["neurologist","Neurologist"],
+			"responses": ["Book your Appointment Date for Neurologist "]
+		},
+	    {
+        	"tag": "33",
+    		"patterns": ["dermatologist","Dermatologist"],
+    		"responses": ["Book your Appointment Date for Dermatologist "]
+    	},
+    	
+    	{
+			"tag": "34",
+			"patterns": ["select_time"],
+			"responses": ["Please select Time slot $10.00 - 11.00, 11.00 - 12.00, 12.00 - 13.00, 13.00 - 14.00, 14.00 - 15.00, 15.00 - 16.00, 16.00 - 17.00, 17.00 - 18.00 "]
+		},
+        {
+			"tag": "35",
+			"patterns": ["Tomorrow","tomorrow","TOMORROW"],
+			"responses": ["Slots Are:-$10.00 - 11.00, 11.00 - 12.00, 12.00 - 13.00, 13.00 - 14.00, 14.00 - 15.00, 15.00 - 16.00, 16.00 - 17.00, 17.00 - 18.00 "]
+		},
+		{
+			"tag": "36",
+			"patterns": ["Day After Tomorrow","day after tomorrow"],
+			"responses": ["Slots Are:-$10.00 - 11.00, 11.00 - 12.00, 12.00 - 13.00, 13.00 - 14.00, 14.00 - 15.00, 15.00 - 16.00, 16.00 - 17.00, 17.00 - 18.00 "]
+		}
+		
+	]
+}
